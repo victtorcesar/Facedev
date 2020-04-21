@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1250px;
+    width: 75%;
+    margin: 0 auto;
+}
+.bg-header{
+    background-image: linear-gradient(#4C68A1,#3B5998);
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: -60px;
+    padding: 3px;
+}
+.form-login{
+    margin-left: 10px;
+}
+.logo img{
+    width:180px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.login label{
+    color: #fff;
+    font-size: 12px;
+}
+.login input{
+    border: 1px solid #000;
+    padding: 4px;
+    margin-top: 2px;
+}
+button{
+    background-color: #4267B2;
+    border: 1px solid rgb(51, 80, 138);
+    padding:4px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.login-button{
+    margin-top: 16px;
+}
+.login > label > a{
+    text-decoration: none;
+    color: #73ABD8;
+    margin-top: 20px;
+}
+.login > label > a:hover{
+    text-decoration: underline;
+}
+
+
+.bg-section{
+    height: 100vh;
+    background-image: linear-gradient(#fff, #D3D8E8);
+}
+.main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.text h5{
+    width: 500px;
+    color: #0E385F;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.map img{
+    padding-left: 30px;
+}
+.form-cadastro h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.form-cadastro p{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.form-cadastro > .form {
+    max-width: 500px;
+}
+.form h2{
+    color: rgb(156,148,156);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.form form input:nth-child(3),
+.form form input:nth-child(4){
+    grid-column: span 2;
+    
+}
+.form form input{
+    outline: none;
+}
+.form input[type="text"]{
+    width: 100%;
+    border: 1px solid rgb(180, 186, 206);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.form input[type="text"]::placeholder{
+    font-size: 18px;
+}
+.form form select{
+    border: 1px solid rgb(180, 186, 206);
+}
+.form label{
+    font-size: 20px;
+    grid-column: 1;
+    margin-top: -50px;
+}
+.direitos p{
+    font-size: 11px;
+    color: #666666;
+}
+.form-cadastro a{
+    text-decoration: none;
+}
+.form-cadastro a:hover{
+    text-decoration: underline;
+}
+.cadastro-btn{
+    background-image: linear-gradient(#6DB25A,#578943);
+    border: 1px solid #2C5115;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 8px 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cadastro-btn:hover{
+    background-image: linear-gradient(rgb(116, 184, 98),#578943);
+}
+.criar-pagina p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
